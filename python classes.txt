@@ -1,0 +1,62 @@
+print(21//5)
+print(21/5)
+print(26//9)
+print(26/9)
+
+
+
+#Arithmetic operator
+print("Arithmetic operator")
+a=10
+b=5
+print("Addition:",a+b)
+print("Subtraction:",a-b)
+print("Miltiplication:",a*b)
+print("Division:",a/b)
+print("Floor division:",a//b)
+print("Modulus:",a%b)
+print("Exponent:",a**b)
+
+
+#program to check where a number is divisible by 2
+number=int(input("Enter a number:"))
+if number%2==0:
+    print("Even")
+else:
+        print("Odd")
+
+
+
+#program to check where a number is divisible by 5
+number=int(input("Enter a number:"))
+if number%2==0:
+    print("Even")
+else:
+        print("Odd")
+
+
+
+number=int(input("Enter a number:"))
+if number% 5==0:
+    print("Even")
+else:
+    print("odd")
+if number% 11==0: 
+    print("Even")
+else:
+    print("odd") 
+if number% 7==0: 
+    print("Even")
+else:
+    print("odd")   
+
+
+
+
+#program to assign a discount of 5% if amount of purchase exceeds sh1000
+amount=float(input("Enter the amount:"))
+if amount>1000:
+    discount=0.05*amount
+    print("Discount is:",discount)
+else:
+    print("Try next time:")
